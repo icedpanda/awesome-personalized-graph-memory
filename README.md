@@ -44,7 +44,7 @@ Papers that survey graph-augmented agents or agent memory broadly.
 Core architectures that use graphs to store, retrieve, or evolve agent memory.
 
 - **G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems** (arXiv'25) [[paper]](https://arxiv.org/abs/2506.07398) [[code]](https://github.com/bingreeky/GMemory).
-- **LatentMem: Customizing Latent Memory for Multi-Agent Systems** (arXiv'26) [[paper]](https://arxiv.org/abs/2602.03036).
+- **GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.01688).
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
 - **Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs** (EMNLP'24) [[paper]](https://arxiv.org/abs/2409.19401).
 
