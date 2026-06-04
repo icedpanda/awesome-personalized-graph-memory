@@ -50,6 +50,7 @@ Core architectures that use graphs to store, retrieve, or evolve agent memory.
 - **GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.01688).
 - **HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.09942).
 - **H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.15701).
+- **HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.06845).
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
 - **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2501.13956).
 
@@ -69,7 +70,10 @@ Papers focused on modeling user preferences and building personalized dialogue a
 
 Datasets and benchmarks for measuring personalized memory and user-aware response quality.
 
+- **Evaluating Very Long-Term Conversational Memory of LLM Agents** (ACL'24) [[paper]](https://arxiv.org/abs/2402.17753).
+- **EXG: Self-Evolving Agents with Experience Graphs** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.17721).
 - **Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale** (arXiv'25) [[paper]](https://arxiv.org/abs/2504.14225) [[code]](https://github.com/bowen-upenn/PersonaMem).
+- **LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory** (arXiv'24) [[paper]](https://arxiv.org/abs/2410.10813).
 - **LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.12493).
 
 ---
