@@ -16,6 +16,7 @@
 - [Surveys & Overviews](#-surveys--overviews)
 - [Graph-Based Memory Systems](#-graph-based-memory-systems)
 - [Personalization & User Modeling](#-personalization--user-modeling)
+- [Memory Baselines & Contrasts](#-memory-baselines--contrasts)
 - [Benchmarks & Evaluation](#-benchmarks--evaluation)
 - [Contributing](#-contributing)
 - [Citation](#-citation)
@@ -51,8 +52,10 @@ Papers that survey graph-augmented agents or agent memory broadly.
 - **HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.06845).
 - **Mem0** (arXiv'25) [[paper]](https://arxiv.org/abs/2504.19413).
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
-- **TriMem** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.19952).
 - **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2501.13956).
+
+---
+
 ## 👤 Personalization & User Modeling
 
 Papers focused on modeling user preferences and building personalized dialogue agents.
@@ -60,6 +63,14 @@ Papers focused on modeling user preferences and building personalized dialogue a
 - **PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2512.06688).
 - **Reasoning over User Preferences: Knowledge Graph-Augmented LLMs for Explainable Conversational Recommendations** (ICDM'25) [[paper]](https://arxiv.org/abs/2411.14459).
 - **User Memory Reasoning for Conversational Recommendation** (arXiv'20) [[paper]](https://arxiv.org/abs/2006.00184).
+
+---
+
+## 🧪 Memory Baselines & Contrasts
+
+Non-graph or hybrid memory systems used as contrast points for graph-memory design.
+
+- **TriMem** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.19952).
 
 ---
 
