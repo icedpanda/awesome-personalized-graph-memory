@@ -43,10 +43,15 @@ Papers that survey graph-augmented agents or agent memory broadly.
 
 Core architectures that use graphs to store, retrieve, or evolve agent memory.
 
+- **Agentic-KGR: Co-evolutionary Knowledge Graph Construction through Multi-Agent Reinforcement Learning** (arXiv'25) [[paper]](https://arxiv.org/abs/2510.09156).
+- **Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs** (EMNLP'24) [[paper]](https://arxiv.org/abs/2409.19401).
+- **GAM: Hierarchical Graph-based Agentic Memory for LLM Agents** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.12285).
 - **G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems** (arXiv'25) [[paper]](https://arxiv.org/abs/2506.07398) [[code]](https://github.com/bingreeky/GMemory).
 - **GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.01688).
+- **HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.09942).
+- **H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.15701).
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
-- **Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs** (EMNLP'24) [[paper]](https://arxiv.org/abs/2409.19401).
+- **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2501.13956).
 
 ---
 
