@@ -42,8 +42,10 @@
 - **ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents** ('26) [[paper]](https://arxiv.org/abs/2603.00026).
 - **Agentic-KGR: Co-evolutionary Knowledge Graph Construction through Multi-Agent Reinforcement Learning** (arXiv'25) [[paper]](https://arxiv.org/abs/2510.09156).
 - **All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution** ('26) [[paper]](https://arxiv.org/abs/2603.19595).
+- **Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation** (arXiv'26) [[paper]](https://arxiv.org/abs/2602.02007).
 - **Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs** (EMNLP'24) [[paper]](https://arxiv.org/abs/2409.19401).
 - **DEMENTIA-PLAN: An Agent-Based Framework for Multi-Knowledge Graph Retrieval-Augmented Generation in Dementia Care** ('25) [[paper]](https://arxiv.org/abs/2503.20950).
+- **GAAMA: Graph Augmented Associative Memory for Agents** (arXiv'26) [[paper]](https://arxiv.org/abs/2603.27910).
 - **G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems** (arXiv'25) [[paper]](https://arxiv.org/abs/2506.07398) [[code]](https://github.com/bingreeky/GMemory).
 - **GAM: Hierarchical Graph-based Agentic Memory for LLM Agents** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.12285).
 - **Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures** ('26) [[paper]](https://arxiv.org/abs/2603.17244).
@@ -52,6 +54,7 @@
 - **HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.09942).
 - **Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent** ('26) [[paper]](https://arxiv.org/abs/2604.26197).
 - **HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.06845).
+- **HyperMem: Hypergraph Memory for Long-Term Conversations** (arXiv'26) [[paper]](https://arxiv.org/abs/2604.08256).
 - **LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning** ('25) [[paper]](https://arxiv.org/abs/2511.01448).
 - **LOOM: Personalized Learning Informed by Daily LLM Conversations Toward Long-Term Mastery via a Dynamic Learner Memory Graph** ('25) [[paper]](https://arxiv.org/abs/2511.21037).
 - **Mem0** (arXiv'25) [[paper]](https://arxiv.org/abs/2504.19413).
@@ -61,15 +64,19 @@
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
 - **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents** ('26) [[paper]](https://arxiv.org/abs/2605.00356).
 - **Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions** ('26) [[paper]](https://arxiv.org/abs/2605.26256).
+- **ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.03804).
 - **SE-GA: Memory-Augmented Self-Evolution for GUI Agents** ('26) [[paper]](https://arxiv.org/abs/2605.16883).
+- **SGMem: Sentence Graph Memory for Long-Term Conversational Agents** (arXiv'25) [[paper]](https://arxiv.org/abs/2509.21212).
 - **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2501.13956).
 
 ## 👤 Personalization & User Modeling
 
+- **Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents** (arXiv'26) [[paper]](https://arxiv.org/abs/2601.06490).
 - **Hierarchical Memory Orchestration for Personalized Persistent Agents** ('26) [[paper]](https://arxiv.org/abs/2604.01670).
 - **Knowledge Graph Tuning: Real-time Large Language Model Personalization based on Human Feedback** ('24) [[paper]](https://arxiv.org/abs/2405.19686).
 - **PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory** (arXiv'25) [[paper]](https://arxiv.org/abs/2512.06688).
 - **Reasoning over User Preferences: Knowledge Graph-Augmented LLMs for Explainable Conversational Recommendations** (ICDM'25) [[paper]](https://arxiv.org/abs/2411.14459).
+- **RGMem: Renormalization Group-inspired Memory Evolution for Language Agents** (ICML'26) [[paper]](https://arxiv.org/abs/2510.16392) [[code]](https://github.com/fenhg297/RGMem).
 - **User Memory Reasoning for Conversational Recommendation** (arXiv'20) [[paper]](https://arxiv.org/abs/2006.00184).
 
 ## 🧪 Memory Baselines & Contrasts
