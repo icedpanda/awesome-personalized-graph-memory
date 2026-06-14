@@ -64,6 +64,7 @@
 - **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) [[paper]](https://arxiv.org/abs/2605.01386).
 - **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents** ('26) [[paper]](https://arxiv.org/abs/2605.00356).
 - **Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions** ('26) [[paper]](https://arxiv.org/abs/2605.26256).
+- **SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.12061).
 - **ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.03804).
 - **SE-GA: Memory-Augmented Self-Evolution for GUI Agents** ('26) [[paper]](https://arxiv.org/abs/2605.16883).
 - **SGMem: Sentence Graph Memory for Long-Term Conversational Agents** (arXiv'25) [[paper]](https://arxiv.org/abs/2509.21212).
@@ -92,6 +93,7 @@ Non-graph or hybrid memory systems used as contrast points for graph-memory desi
 - **Agentic Recommender System with Hierarchical Belief-State Memory** ('26) [[paper]](https://arxiv.org/abs/2605.14401).
 - **EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval** ('26) [[paper]](https://arxiv.org/abs/2604.21229).
 - **Evaluating Very Long-Term Conversational Memory of LLM Agents** (ACL'24) [[paper]](https://arxiv.org/abs/2402.17753).
+- **EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments** (arXiv'26) [[paper]](https://arxiv.org/abs/2606.13681).
 - **EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective** ('26) [[paper]](https://arxiv.org/abs/2605.18421).
 - **EXG: Self-Evolving Agents with Experience Graphs** (arXiv'26) [[paper]](https://arxiv.org/abs/2605.17721).
 - **Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale** (arXiv'25) [[paper]](https://arxiv.org/abs/2504.14225) [[code]](https://github.com/bowen-upenn/PersonaMem).
