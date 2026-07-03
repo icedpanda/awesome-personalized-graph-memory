@@ -7,7 +7,7 @@
 
 > A curated reading list for **personalized graph memory** for Long-term Dialogue Agents.
 
-> 📝 Paper: *coming soon* &nbsp;|&nbsp; ✉️ Contact: *to be added*
+> 📝 Paper: *coming soon* &nbsp;|&nbsp; ✉️ Contact: Zhangchi Qiu <z.qiu@griffith.edu.au>, Dac Duy Anh Nguyen <rodo.nguyen@griffith.edu.au>
 
 ---
 
