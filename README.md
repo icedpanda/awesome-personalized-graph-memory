@@ -235,7 +235,7 @@ If this list is useful in your work, please cite our survey (BibTeX placeholder,
 ```bibtex
 @article{personalized_graph_memory_2026,
   title   = {Survey: Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation},
-  author  = {TBD},
+  author  = {Nguyen, Dac Duy Anh and Qiu, Zhangchi and Chen, Shigeng and Liew, Alan Wee-Chung},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026}
 }
