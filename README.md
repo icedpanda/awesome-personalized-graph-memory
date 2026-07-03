@@ -1,9 +1,9 @@
 ﻿# Awesome Graph-Based Personalized Memory for LLM Agents:
 
-[Awesome](https://awesome.re)
-[PRs Welcome](http://makeapullrequest.com)
-[License: MIT](https://opensource.org/licenses/MIT)
-[Maintenance](#)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#)
 
 > A curated list of awesome papers and resources on preference-centric personalized graph memory for LLM agents, covering representation, retrieval, evolution, and evaluation of user-anchored long-term memory.
 
