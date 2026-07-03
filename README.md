@@ -1,10 +1,9 @@
 ﻿# Awesome Graph-Based Personalized Memory for LLM Agents:
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#)
-
+[Awesome](https://awesome.re)
+[PRs Welcome](http://makeapullrequest.com)
+[License: MIT](https://opensource.org/licenses/MIT)
+[Maintenance](#)
 
 > A curated list of awesome papers and resources on preference-centric personalized graph memory for LLM agents, covering representation, retrieval, evolution, and evaluation of user-anchored long-term memory.
 
@@ -26,12 +25,9 @@
 
 ---
 
-
-
 ## Surveys & Overviews
 
 Broad surveys and position papers that frame agent memory, personalized agents, graph-augmented LLM agents, or nearby graph-learning foundations.
-
 
 | Work                                                                                                  | Links                                                                                                   |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -44,14 +40,11 @@ Broad surveys and position papers that frame agent memory, personalized agents, 
 | **Personalized Generation In Large Model Era: A Survey** (COLING'25)                                  | [[paper]](https://arxiv.org/abs/2503.02614)                                                             |
 
 
-
-
 ## Core Agent Memory Architectures
 
 General-purpose long-term memory systems for agents. These are grouped here when the main contribution is a memory architecture, controller, lifecycle, or memory-management policy rather than specifically user modeling or evaluation.
 
 ### Graph, KG, and Structured Memory
-
 
 | Work                                                                                                                            | Links                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -72,11 +65,7 @@ General-purpose long-term memory systems for agents. These are grouped here when
 | **TemporalKGMemory** (arXiv'26)                                                                                                 | [[paper]](https://arxiv.org/abs/2604.11544)                                                     |
 | **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25)                                                    | [[paper]](https://arxiv.org/abs/2501.13956)                                                     |
 
-
-
-
 ### Hybrid, Hierarchical, and Cognitive Memory
-
 
 | Work                                                                                                            | Links                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -105,11 +94,7 @@ General-purpose long-term memory systems for agents. These are grouped here when
 | **Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory** (arXiv'26)                     | [[paper]](https://arxiv.org/abs/2605.19952)                                                |
 | **What Deserves Memory: Adaptive Memory Distillation for LLM** (arXiv'25)                                       | [[paper]](https://arxiv.org/abs/2508.03341)                                                |
 
-
-
-
 ### Memory Evolution, Reflection, and Procedures
-
 
 | Work                                                                                                                      | Links                                       |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
@@ -117,9 +102,6 @@ General-purpose long-term memory systems for agents. These are grouped here when
 | **Managing Procedural Memory** (arXiv'26)                                                                                 | [[paper]](https://arxiv.org/abs/2606.23127) |
 | **Memory in the Age of AI Agents** (arXiv'26)                                                                             | [[paper]](https://arxiv.org/abs/2512.13564) |
 | **Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning** (arXiv'25) | [[paper]](https://arxiv.org/abs/2508.19828) |
-
-
-
 
 ## Personalization, User Modeling, and Recommendation
 
@@ -149,11 +131,7 @@ Papers whose central objective is representing a specific user's traits, prefere
 | **TraceMem: Weaving Narrative Memory Schemata from User Conversational Traces** (arXiv'26)                                                 | [[paper]](https://arxiv.org/abs/2602.09712) [[code]](https://github.com/YimingShu-teay/TraceMem) |
 | **User Simulator-Guided Multi-Turn Preference Optimization** (arXiv'26)                                                                    | [[paper]](https://arxiv.org/abs/2604.03671)                                                      |
 
-
-
-
 ### Conversational Recommendation and Preference Reasoning
-
 
 | Work                                                                                                                         | Links                                       |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
@@ -167,10 +145,7 @@ Papers whose central objective is representing a specific user's traits, prefere
 | **User Memory Reasoning for Conversational Recommendation** (arXiv'20)                                                       | [[paper]](https://arxiv.org/abs/2006.00184) |
 
 
-
-
 ### Personal Memory Products and Assistants
-
 
 | Work                                                                            | Links                                                                                                   |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -179,9 +154,6 @@ Papers whose central objective is representing a specific user's traits, prefere
 | **OpenClaw** (Documentation'26)                                                 | [[link]](https://docs.openclaw.ai/) [[code]](https://github.com/openclaw/openclaw)                      |
 | **Supermemory** (Project)                                                       | [[link]](https://supermemory.ai/)                                                                       |
 | **Vellum Assistant: A Personal AI Assistant That Evolves With You** (GitHub'26) | [[link]](https://github.com/vellum-ai/vellum-assistant)                                                 |
-
-
-
 
 ## Domain, Embodied, and Multi-Agent Applications
 
@@ -198,9 +170,6 @@ Memory systems grounded in a particular task environment or application domain. 
 | **SE-GA: Memory-Augmented Self-Evolution for GUI Agents** (arXiv'26)                                                                         | [[paper]](https://arxiv.org/abs/2605.16883) |
 | **Skill-Pro** (arXiv'26)                                                                                                                     | [[paper]](https://arxiv.org/abs/2602.01869) |
 
-
-
-
 ## Memory Safety, Auditing, and Robustness
 
 Work focused on memory contamination, poisoning, anomaly detection, and structural auditing rather than memory architecture alone.
@@ -211,9 +180,6 @@ Work focused on memory contamination, poisoning, anomaly detection, and structur
 | **MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection** (arXiv'26) | [[paper]](https://arxiv.org/abs/2605.23723) |
 | **MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models** (arXiv'26)                | [[paper]](https://arxiv.org/abs/2605.28009) |
 | **ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting** (arXiv'26)            | [[paper]](https://arxiv.org/abs/2605.03804) |
-
-
-
 
 ## Adjacent Retrieval, GraphRAG, and Data Methods
 
@@ -229,9 +195,6 @@ Related methods that inform graph-memory design but are not primarily personaliz
 | **NodeRAG** (arXiv'25)                                                                                              | [[paper]](https://arxiv.org/abs/2504.11544) |
 | **Synthesize-on-Graph** (arXiv'25)                                                                                  | [[paper]](https://arxiv.org/abs/2505.00979) |
 | **TableRAG** (arXiv'25)                                                                                             | [[paper]](https://arxiv.org/abs/2506.10380) |
-
-
-
 
 ## Benchmarks & Evaluation
 
@@ -257,10 +220,7 @@ Benchmarks, diagnostics, and empirical evaluation frameworks. Systems that also 
 | **SocialMemBench** (arXiv'26)                                                                                          | [[paper]](https://arxiv.org/abs/2605.17789)                                                     |
 
 
-
-
 ### Structure, Evolution, and Agent-Task Evaluation
-
 
 | Work                                                                                             | Links                                                                                    |
 | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
@@ -275,32 +235,13 @@ Benchmarks, diagnostics, and empirical evaluation frameworks. Systems that also 
 | **WildGraphBench** (arXiv'26)                                                                    | [[paper]](https://arxiv.org/abs/2602.02053)                                              |
 
 
-
+---
 
 ## 🤝 Contributing
 
 PRs are very welcome. Please:
 
-1. Keep entries in the format: `**Title** (Venue'YY) <a href="url">paper</a> <a href="url">code</a>.`
+1. Keep entries in the format: `**Paper Title** (Venue'YY) [[paper]](url) [[code]](url).`
 2. Add the paper to the section that best matches its **primary** contribution; cross-reference in other sections only if essential.
-3. Flag new benchmarks with what they measure that existing ones don't.
 
 ---
-
-
-
-## 📃 Citation
-
-If this list is useful in your work, please cite our survey (BibTeX placeholder, to be updated upon arXiv submission):
-
-```bibtex
-@article{personalized_graph_memory_2026,
-  title   = {Survey: Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation},
-  author  = {Nguyen, Dac Duy Anh and Qiu, Zhangchi and Chen, Shigeng and Liew, Alan Wee-Chung},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
-}
-```
-
----
-
