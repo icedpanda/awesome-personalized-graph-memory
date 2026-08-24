@@ -7,7 +7,7 @@
 
 > A curated list of papers and systems on graph-based personalized memory for LLM agents.
 
-Organized to follow the survey lifecycle: **representation → evolution → retrieval → evaluation**. Overviews and personal assistants come first as motivation.
+Organized to follow the construction lifecycle of knowledge graph-based memory system: **representation → evolution → retrieval → evaluation**.
 
 > \[!NOTE]
 > Papers often span more than one subsection. Each work is listed **once**, under the heading it most clearly illustrates.
@@ -50,7 +50,7 @@ Organized to follow the survey lifecycle: **representation → evolution → ret
 
 ## Overviews
 
-Surveys that frame the area. The first group is what this list sits next to; the second group is useful background.
+Surveys that frame the area.
 
 ### Core related surveys
 
@@ -64,8 +64,6 @@ Personalized agents, graph-based agent memory, and modular agent memory — the 
 
 ### Broader surveys
 
-Agent methodology, graph-augmented LLMs, personalized generation, and general memory reviews.
-
 | Work                                                                                                                 | Links                                         |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | **From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms** (ACL Findings'26)           | [\[paper\]](https://arxiv.org/abs/2605.06716) |
@@ -76,19 +74,19 @@ Agent methodology, graph-augmented LLMs, personalized generation, and general me
 
 ## Personal Assistants
 
-Deployed and open assistants that motivate long-term, user-specific memory.
+Deployed personal, agentic assistants that motivate long-term memory.
 
 | Work                                                                            | Links                                                                                                       |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **Dreaming: Better Memory for ChatGPT** (OpenAI Blog'26)                        | [\[link\]](https://openai.com/index/chatgpt-memory-dreaming/)                                               |
-| **Hermes Agent** (Project'26)                                                   | [\[link\]](https://hermes-agent.nousresearch.com/) [\[code\]](https://github.com/NousResearch/hermes-agent) |
-| **OpenClaw** (Documentation'26)                                                 | [\[link\]](https://docs.openclaw.ai/) [\[code\]](https://github.com/openclaw/openclaw)                      |
-| **Supermemory** (Project)                                                       | [\[link\]](https://supermemory.ai/)                                                                         |
-| **Vellum Assistant: A Personal AI Assistant That Evolves With You** (GitHub'26) | [\[link\]](https://github.com/vellum-ai/vellum-assistant)                                                   |
+| **Hermes Agent**                                                                | [\[link\]](https://hermes-agent.nousresearch.com/) [\[code\]](https://github.com/NousResearch/hermes-agent) |
+| **OpenClaw**                                                                    | [\[link\]](https://docs.openclaw.ai/) [\[code\]](https://github.com/openclaw/openclaw)                      |
+| **Supermemory**                                                                 | [\[link\]](https://supermemory.ai/)                                                                         |
+| **Vellum Assistant: A Personal AI Assistant That Evolves With You**             | [\[link\]](https://github.com/vellum-ai/vellum-assistant)                                                   |
 
 ## Memory Representation
 
-How user facts, preferences, episodes, and relations are stored. The papers below are grouped by **structure**.
+How user facts, preferences, episodes, and relations are stored and structured with graphs. The papers below are grouped by **structure**.
 
 > \[!Note]
 > The five patterns are not mutually exclusive; a system is placed under the pattern that best describes its design.
@@ -129,7 +127,7 @@ Evidence in layers (turns, facts, topics, personas) so user state is available a
 
 ### Hypergraph
 
-Joint context stored as hyperedges so an episode or event is not split into independent binary links.
+Joint context stored as hyperedges, representing more complex relationships.
 
 | Work                                                                                                         | Links                                         |
 | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
@@ -149,7 +147,7 @@ A graph for relations, plus a complementary store (tree, summaries, passages, or
 
 ### Multiple Disjoint Graphs
 
-Separate graph instances for different timescales or functions. The survey currently treats this pattern as thinly evidenced.
+Separate graph instances for different timescales or functions. The paper below is a good use case that knowledge graph architecture can be.
 
 | Work                                                                                                                                  | Links                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -157,9 +155,7 @@ Separate graph instances for different timescales or functions. The survey curre
 
 ## Memory Evolution
 
-How the graph is updated: whether to write, how to attach, how to handle conflict, how to reorganize, and how to forget or delete.
-
-Papers whose **structure** is the distinctive contribution stay under Representation (Mem0, GAM, LiCoMemory, HingeMem, Knowledge Graph Tuning).
+How the graph is updated: whether to write, how to attach, how to handle conflict, how to reorganize, whether to consolidate to avoid memory bloat and how to forget or delete.
 
 ### Admission
 
@@ -204,7 +200,7 @@ Reorganization after many writes: abstraction, deduplication, topology edits, ar
 
 ### Removal
 
-Forgetting (lower exposure or resolution while something remains stored) versus deletion or deprecation of the active state.
+Forgetting (lower exposure or resolution while something remains stored) versus deletion or archival of the active state.
 
 | Work                                                                                                                            | Links                                         |
 | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -214,8 +210,6 @@ Forgetting (lower exposure or resolution while something remains stored) versus 
 ## Memory Retrieval
 
 How a request maps to a bounded subset of the user graph.
-
-GAM and HingeMem are listed under Representation. MAGMA is here rather than under multiple disjoint graphs: it uses several relational *views* of the same items, not separate user-model instances.
 
 ### Similarity-Based Retrieval
 
@@ -255,7 +249,7 @@ Query interpretation, expansion, stopping, routing, or compression that depends 
 
 ## Evaluation
 
-Benchmarks and protocols. A system stays here when the dataset or evaluation design is the main contribution.
+Benchmarks and protocols. Papers are placed here when their datasets or evaluation designs are the main contribution.
 
 ### Long-Horizon Recall
 
@@ -359,6 +353,5 @@ PRs are welcome. Please:
 
 1. Keep entries in the format: `**Paper Title** (Venue'YY) [[paper]](url) [[code]](url).`
 2. Add each paper **once**, under the survey heading it most clearly illustrates (representation structure, evolution operation, retrieval mechanism, or evaluation family).
-3. If it also matters elsewhere, mention it in that heading's "also relevant" note rather than duplicating the row.
 
 ***
