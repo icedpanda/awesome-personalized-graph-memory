@@ -1,21 +1,45 @@
-﻿# Awesome Graph-Based Personalized Memory for LLM Agents:
+﻿# Awesome Graph-Based Personalized Memory for LLM Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub stars](https://img.shields.io/github/stars/icedpanda/awesome-personalized-graph-memory?color=yellow)](https://github.com/icedpanda/awesome-personalized-graph-memory/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue)](https://github.com/icedpanda/awesome-personalized-graph-memory/network/members)
 
-> A curated list of papers and systems on graph-based personalized memory for LLM agents.
+A curated list of papers, systems, and benchmarks on **graph-based personalized memory** for LLM agents.
 
-Organized to follow the construction lifecycle of knowledge graph-based memory system: **representation → evolution → retrieval → evaluation**.
+Recent advances in large language models (LLMs) have enabled agents that can follow complex instructions, plan over multiple steps, use tools, and carry out long-horizon tasks. Building on these capabilities, such agents are increasingly deployed as personal assistants that interact with the same user across sessions, tasks, and contexts. In this setting, personalization becomes a central requirement: effective long-term assistance depends not only on general reasoning, but also on an understanding of the user's goals, preferences, constraints, relationships, and prior experiences.
 
-> \[!NOTE]
+The user-specific knowledge that personalization depends on is rarely stated in a single session. It accumulates gradually through repeated interaction and often changes over time. Although recent models support large context windows, replaying a user's full history in the prompt remains impractical. Personalized agents therefore require a persistent memory that can store this information across sessions, reorganize it as circumstances change, and retrieve it to guide subsequent behavior. Designs based on dialogue logs, summaries, or vector stores can recall individual entries, yet they leave relations, provenance, temporal validity, and contradictions implicit.
+
+Graph-based memory provides a structured alternative. By representing user facts, episodes, and relations as nodes and edges, it can encode not only what an agent remembers about a user, but also how memories are connected, revised, and retrieved for personalized decisions. This repository collects recent work on this topic and organizes it along the memory lifecycle: **representation → evolution → retrieval → evaluation**.
+
+## News
+
+🔭 This project is under active development. Star and watch the repository to follow updates.
+
+## Overview
+
+This repository collects recent advances in graph-based personalized memory for LLM agents. We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation. The figure below summarizes this workflow, from ingesting user interactions to retrieving a bounded subgraph for the next response.
+
+<p align="center">
+  <img src="figs/fig-workflow.jpg" alt="Graph-based personalized memory system" width="65%"/>
+</p>
+<p align="center"><em>Overview of a graph-based personalized agent memory system.</em></p>
+
+We further include evaluation protocols and application-oriented systems. Adjacent GraphRAG and generic agent-memory work is listed separately when it provides useful context but falls outside the scope of personalized graph memory.
+
+We hope this repository can help researchers and practitioners navigate this emerging area. Contributions of missing papers are welcome.
+
+> [!NOTE]
 > Papers often span more than one subsection. Each work is listed **once**, under the heading it most clearly illustrates.
 
 ***
 
 ## 📌 Contents
 
+* [News](#news)
+* [Overview](#overview)
 * [Overviews](#overviews)
   * [Core related surveys](#core-related-surveys)
   * [Broader surveys](#broader-surveys)
@@ -42,7 +66,6 @@ Organized to follow the construction lifecycle of knowledge graph-based memory s
   * [Structure and Evolution](#structure-and-evolution)
 * [Applications](#applications)
 * [Adjacent / Out of Scope](#adjacent--out-of-scope)
-  * [Agent foundations](#agent-foundations)
   * [GraphRAG and data methods](#graphrag-and-data-methods)
 * [Contributing](#-contributing)
 
@@ -88,7 +111,12 @@ Deployed personal, agentic assistants that motivate long-term memory.
 
 How user facts, preferences, episodes, and relations are stored and structured with graphs. The papers below are grouped by **structure**.
 
-> \[!Note]
+<p align="center">
+  <img src="figs/fig-structures.jpg" alt="Graph-based memory structure patterns" width="65%"/>
+</p>
+<p align="center"><em>Representative graph-based memory patterns: flat, hierarchical, hypergraph, hybrid, and multiple disjoint graphs.</em></p>
+
+> [!NOTE]
 > The five patterns are not mutually exclusive; a system is placed under the pattern that best describes its design.
 
 ### Flat Graph
@@ -155,7 +183,12 @@ Separate graph instances for different timescales or functions. The paper below 
 
 ## Memory Evolution
 
-How the graph is updated: whether to write, how to attach, how to handle conflict, how to reorganize, whether to consolidate to avoid memory bloat and how to forget or delete.
+How the graph is updated: whether to write, how to attach, how to handle conflict, how to reorganize, whether to consolidate to avoid memory bloat, and how to forget or delete.
+
+<p align="center">
+  <img src="figs/fig-evolution.jpg" alt="Evolution of graph-based personalized memory" width="96%"/>
+</p>
+<p align="center"><em>Evolution of graph-based personalized memory: admission, integration, conflict resolution, consolidation, and removal.</em></p>
 
 ### Admission
 
