@@ -117,9 +117,6 @@ How user facts, preferences, episodes, and relations are stored and structured w
 </p>
 <p align="center"><em>Representative graph-based memory patterns: flat, hierarchical, hypergraph, hybrid, and multiple disjoint graphs.</em></p>
 
-> [!NOTE]
-> The five patterns are not mutually exclusive. A system that combines patterns is listed under each pattern it uses.
-
 ### Flat Graph
 
 User-related facts and relations as nodes and typed edges, without an explicit abstraction hierarchy. Heterogeneous types alone do not count as hierarchy.
