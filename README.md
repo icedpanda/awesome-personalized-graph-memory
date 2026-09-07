@@ -87,14 +87,14 @@ Personalized agents, graph-based agent memory, and modular agent memory — the 
 
 ### Broader surveys
 
-| Work                                                                                                                 | Links                                         |
-| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| **From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms** (ACL Findings'26)           | [\[paper\]](https://arxiv.org/abs/2605.06716) |
-| **Graph-Augmented Large Language Model Agents: Current Progress and Future Prospects** (IEEE Intelligent Systems'26) | [\[paper\]](https://arxiv.org/abs/2507.21407) |
-| **Large Language Model Agent: A Survey on Methodology, Applications and Challenges** (arXiv'25)                      | [\[paper\]](https://arxiv.org/abs/2503.21460) |
-| **Memory in the Age of AI Agents** (arXiv'25)                                                                        | [\[paper\]](https://arxiv.org/abs/2512.13564) |
-| **Personalized Generation In Large Model Era: A Survey** (ACL'25)                                                    | [\[paper\]](https://arxiv.org/abs/2503.02614) |
+| Work                                                                                                                 | Links                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **A Survey on the Memory Mechanism of Large Language Model based Agents** (arXiv'24)                                 | [\[paper\]](https://arxiv.org/abs/2404.13501) [\[code\]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) |
+| **From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms** (ACL Findings'26)           | [\[paper\]](https://arxiv.org/abs/2605.06716)                                                   |
+| **Graph-Augmented Large Language Model Agents: Current Progress and Future Prospects** (IEEE Intelligent Systems'26) | [\[paper\]](https://arxiv.org/abs/2507.21407)                                                   |
+| **Large Language Model Agent: A Survey on Methodology, Applications and Challenges** (arXiv'25)                      | [\[paper\]](https://arxiv.org/abs/2503.21460)                                                   |
+| **Memory in the Age of AI Agents** (arXiv'25)                                                                        | [\[paper\]](https://arxiv.org/abs/2512.13564)                                                   |
+| **Personalized Generation In Large Model Era: A Survey** (ACL'25)                                                    | [\[paper\]](https://arxiv.org/abs/2503.02614)                                                   |
 
 ## Personal Assistants
 
@@ -127,8 +127,11 @@ User-related facts and relations as nodes and typed edges, without an explicit a
 | Work                                                                                                                     | Links                                         |
 | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
 | **Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents** (ACL'26) | [\[paper\]](https://arxiv.org/abs/2601.01885) |
+| **Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents** (ACL'26)                                  | [\[paper\]](https://arxiv.org/abs/2601.07468) |
+| **EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue** (arXiv'26) | [\[paper\]](https://arxiv.org/abs/2603.04815) |
 | **Knowledge Graph Tuning: Real-time Large Language Model Personalization based on Human Feedback** (arXiv'24)            | [\[paper\]](https://arxiv.org/abs/2405.19686) |
 | **Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory** (ECAI'25)                                   | [\[paper\]](https://arxiv.org/abs/2504.19413) |
+| **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) | [\[paper\]](https://arxiv.org/abs/2605.01386) |
 | **Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning** (ACL'26)                  | [\[paper\]](https://arxiv.org/abs/2601.04726) |
 | **Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory** (arXiv'26)           | [\[paper\]](https://arxiv.org/abs/2604.11544) |
 | **User Memory Reasoning for Conversational Recommendation** (COLING'20)                                                  | [\[paper\]](https://arxiv.org/abs/2006.00184) |
@@ -152,7 +155,7 @@ Evidence in layers (turns, facts, topics, personas) so user state is available a
 | **Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects** (arXiv'25)                                   | [\[paper\]](https://arxiv.org/abs/2512.12818)                                                  |
 | **HyperMem: Hypergraph Memory for Long-Term Conversations** (ACL'26)                                                           | [\[paper\]](https://arxiv.org/abs/2604.08256)                                                  |
 | **LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation** (arXiv'25)                          | [\[paper\]](https://arxiv.org/abs/2510.04851)                                                  |
-| **MemGPT: Towards LLMs as Operating Systems** (arXiv'23)                                                                       | [\[paper\]](https://arxiv.org/abs/2310.08560)                                                  |
+| **LOOM: Personalized Learning Informed by Daily LLM Conversations Toward Long-Term Mastery via a Dynamic Learner Memory Graph** (PerFM@AAAI'26) | [\[paper\]](https://arxiv.org/abs/2511.21037)                                                  |
 | **SGMem: Sentence Graph Memory for Long-Term Conversational Agents** (arXiv'25)                                                | [\[paper\]](https://arxiv.org/abs/2509.21212)                                                  |
 | **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25)                                                   | [\[paper\]](https://arxiv.org/abs/2501.13956)                                                  |
 
@@ -178,7 +181,7 @@ A graph for relations, plus a complementary store (tree, summaries, passages, or
 
 ### Multiple Disjoint Graphs
 
-Separate graph instances for different timescales or functions. The paper below is a good use case that knowledge graph architecture can be.
+Separate graph instances for different timescales or functions.
 
 | Work                                                                                                                                  | Links                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -233,6 +236,7 @@ Reorganization after many writes: abstraction, deduplication, topology edits, ar
 | Work                                                                                                                      | Links                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution** (arXiv'26)                                            | [\[paper\]](https://arxiv.org/abs/2603.19595)                                               |
+| **EXG: Self-Evolving Agents with Experience Graphs** (arXiv'26)                                                           | [\[paper\]](https://arxiv.org/abs/2605.17721)                                               |
 | **GAM: Hierarchical Graph-based Agentic Memory for LLM Agents** (ACL'26)                                                  | [\[paper\]](https://arxiv.org/abs/2604.12285)                                               |
 | **HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution** (arXiv'26)                                     | [\[paper\]](https://arxiv.org/abs/2605.09942)                                               |
 | **Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation** (arXiv'26)                              | [\[paper\]](https://arxiv.org/abs/2606.23127)                                               |
@@ -276,8 +280,13 @@ Expand or refine candidates through relations, layers, or relational views.
 | **Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation** (arXiv'26)                                                      | [\[paper\]](https://arxiv.org/abs/2602.02007) |
 | **GAM: Hierarchical Graph-based Agentic Memory for LLM Agents** (ACL'26)                                                                 | [\[paper\]](https://arxiv.org/abs/2604.12285) |
 | **Graph Retrieval-Augmented LLM for Conversational Recommendation Systems** (PAKDD'25)                                                   | [\[paper\]](https://arxiv.org/abs/2503.06430) |
+| **H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure** (arXiv'26)                           | [\[paper\]](https://arxiv.org/abs/2605.15701) |
 | **HyperMem: Hypergraph Memory for Long-Term Conversations** (ACL'26)                                                                     | [\[paper\]](https://arxiv.org/abs/2604.08256) |
 | **MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents** (ACL'26)                                                        | [\[paper\]](https://arxiv.org/abs/2601.03236) |
+| **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26)           | [\[paper\]](https://arxiv.org/abs/2605.01386) |
+| **Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents** (ICML'26)                                                        | [\[paper\]](https://arxiv.org/abs/2606.06036) [\[code\]](https://github.com/Ji-shuo/MRAgent) |
+| **MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning** (ACL'26)                                             | [\[paper\]](https://arxiv.org/abs/2601.18204) |
+| **PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM** (arXiv'25)                                         | [\[paper\]](https://arxiv.org/abs/2511.17467) |
 | **PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents** (IEEE Access'26) | [\[paper\]](https://arxiv.org/abs/2506.17001) |
 | **PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents** (arXiv'26)         | [\[paper\]](https://arxiv.org/abs/2605.13481) |
 | **PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents** (arXiv'26)                             | [\[paper\]](https://arxiv.org/abs/2605.12260) |
@@ -293,6 +302,7 @@ Query interpretation, expansion, stopping, routing, or compression that depends 
 | **ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents** (arXiv'26)                  | [\[paper\]](https://arxiv.org/abs/2603.00026)                                                |
 | **APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI** (ACL'26) | [\[paper\]](https://arxiv.org/abs/2604.14362)                                                |
 | **HingeMem: Boundary Guided Long-Term Memory with Query Adaptive Retrieval for Scalable Dialogues** (WWW'26)  | [\[paper\]](https://arxiv.org/abs/2604.06845)                                                |
+| **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) | [\[paper\]](https://arxiv.org/abs/2605.01386)                                                |
 | **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents** (arXiv'26)                     | [\[paper\]](https://arxiv.org/abs/2605.00356)                                                |
 | **MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback** (arXiv'26)   | [\[paper\]](https://arxiv.org/abs/2606.07909)                                                |
 | **Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents** (ICML'26)                             | [\[paper\]](https://arxiv.org/abs/2606.06036) [\[code\]](https://github.com/Ji-shuo/MRAgent) |
@@ -324,7 +334,7 @@ Profile, preference, and persona tracking rather than generic recall.
 | **Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale** (COLM'25)                | [\[paper\]](https://arxiv.org/abs/2504.14225) [\[code\]](https://github.com/bowen-upenn/PersonaMem) |
 | **PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering** (arXiv'24) | [\[paper\]](https://arxiv.org/abs/2402.16288)                                                       |
 | **PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory** (arXiv'25)                | [\[paper\]](https://arxiv.org/abs/2512.06688)                                                       |
-| **RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction** (ACL'26)                                                       | [\[paper\]](https://arxiv.org/abs/2601.06966)                                                       |
+| **RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction** (ACL Findings'26)                                              | [\[paper\]](https://arxiv.org/abs/2601.06966)                                                       |
 | **SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?** (arXiv'26)                                                 | [\[paper\]](https://arxiv.org/abs/2605.17789)                                                       |
 
 ### Structure and Evolution
@@ -340,7 +350,6 @@ Graph organization, update over time, and failure attribution.
 | **Evaluating Memory Structure in LLM Agents** (arXiv'26)                                                                             | [\[paper\]](https://arxiv.org/abs/2602.11243)                                                      |
 | **EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments** (arXiv'26)                                     | [\[paper\]](https://arxiv.org/abs/2606.13681)                                                      |
 | **EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective** (arXiv'26)                                               | [\[paper\]](https://arxiv.org/abs/2605.18421)                                                      |
-| **HiMTM: Hierarchical Multi-Scale Masked Time Series Modeling with Self-Distillation for Long-Term Forecasting** (CIKM'24)           | [\[paper\]](https://dl.acm.org/doi/abs/10.1145/3627673.3679741)                                    |
 | **MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization** (Lifelong Agent@ICLR'26) | [\[paper\]](https://arxiv.org/abs/2603.25973)                                                      |
 | **MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems** (arXiv'26)                                       | [\[paper\]](https://arxiv.org/abs/2605.28732)                                                      |
 | **WildGraphBench: Benchmarking GraphRAG with Wild-Source Corpora** (ACL Findings'26)                                                 | [\[paper\]](https://arxiv.org/abs/2602.02053) [\[code\]](https://github.com/BstWPY/WildGraphBench) |
@@ -384,6 +393,7 @@ Work that provides novel, foundational knowledge/ideas or interesting but is not
 
 | Work                                                                                             | Links                                                                                        |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| **MemGPT: Towards LLMs as Operating Systems** (arXiv'23)                                         | [\[paper\]](https://arxiv.org/abs/2310.08560)                                                |
 | **SeCom: On Memory Construction and Retrieval for Personalized Conversational Agents** (ICLR'25) | [\[paper\]](https://arxiv.org/abs/2502.05589) [\[code\]](https://github.com/microsoft/SeCom) |
 
 ### GraphRAG and data methods
