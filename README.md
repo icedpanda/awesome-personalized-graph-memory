@@ -11,13 +11,13 @@ We hope this repository can help researchers and practitioners navigate this eme
 
 ## News
 
-🎉 Our paper has been accepted to the **IEEE International Conference on Knowledge Graphs (ICKG 2026)**!
+- 🎉 Our paper has been accepted to the **IEEE International Conference on Knowledge Graphs (ICKG 2026)**!
 
 ---
 
 ![Graph-based personalized memory system](figs/fig-workflow.jpg)
 
-- ***Overview of a graph-based personalized agent memory system.***
+***Overview of a graph-based personalized agent memory system.***
 
 ---
 
