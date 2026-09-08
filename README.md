@@ -1,12 +1,11 @@
-﻿# Awesome Graph-Based Personalized Memory for LLM Agents
+# Awesome Graph-Based Personalized Memory for LLM Agents
 
 ![Awesome](https://awesome.re/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/icedpanda/awesome-personalized-graph-memory?color=yellow)
 ![GitHub forks](https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue)
 
-A curated list of papers, systems, and benchmarks on **graph-based personalized memory** for LLM agents. We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation. 
+A curated list of papers, systems, and benchmarks on **graph-based personalized memory** for LLM agents. We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
 
 We hope this repository can help researchers and practitioners navigate this emerging area. Contributions of missing papers are welcome.
 
@@ -58,8 +57,7 @@ We hope this repository can help researchers and practitioners navigate this eme
 
 ### Core Related Surveys
 
-Personalized agents, graph-based agent memory, and modular agent memory — the three review lines the survey positions itself against.
-
+Surveys on personalized agents, graph-based agent memory, and modular agent memory.
 
 | Work                                                                                                  | Links                                                                                                   |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -80,7 +78,7 @@ Personalized agents, graph-based agent memory, and modular agent memory — the 
 
 ## Personal Assistants
 
-Deployed personal, agentic assistants that motivate long-term memory.
+Personal assistants and memory systems that motivate long-term agent memory.
 
 | Work                                                                | Links                                                                                                   |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -136,9 +134,6 @@ Evidence in layers (turns, facts, topics, personas) so user state is available a
 | **LOOM: Personalized Learning Informed by Daily LLM Conversations Toward Long-Term Mastery via a Dynamic Learner Memory Graph** (PerFM@AAAI'26) | [[paper]](https://arxiv.org/abs/2511.21037)                                                |
 | **SGMem: Sentence Graph Memory for Long-Term Conversational Agents** (arXiv'25)                                                                 | [[paper]](https://arxiv.org/abs/2509.21212)                                                |
 | **Zep: A Temporal Knowledge Graph Architecture for Agent Memory** (arXiv'25)                                                                    | [[paper]](https://arxiv.org/abs/2501.13956)                                                |
-
-
-
 
 ### Hypergraph
 
@@ -373,8 +368,7 @@ Same memory ideas in a specific task: personalized dialogue, recommendation, emb
 
 PRs are welcome. Please:
 
-1. Keep entries in the format: `**Paper Title** (Venue'YY) [[paper]](url) [[code]](url).`
-2. List a paper under every survey heading it illustrates (representation structure, evolution operation, retrieval mechanism, evaluation family, or application). Duplicate rows are intended; they make papers findable by category.
+1. Add entries to the relevant table using `| **Paper Title** (Venue'YY) | [[paper]](url) [[code]](url) |`. Omit the code link when unavailable.
+2. List a paper under every category it illustrates (representation structure, evolution operation, retrieval mechanism, evaluation family, or application). Duplicate rows are intended; they make papers findable by category.
 
 ---
-
