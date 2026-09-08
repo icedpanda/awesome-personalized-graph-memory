@@ -17,7 +17,7 @@ We hope this repository can help researchers and practitioners navigate this eme
 
 ![Graph-based personalized memory system](figs/fig-workflow.jpg)
 
-***Overview of a graph-based personalized agent memory system.***
+- ***Overview of a graph-based personalized agent memory system.***
 
 ---
 
