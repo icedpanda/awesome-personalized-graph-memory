@@ -11,6 +11,8 @@ We hope this repository can help researchers and practitioners navigate this eme
 
 ## News
 
+🎉 Our paper has been accepted to the **IEEE International Conference on Knowledge Graphs (ICKG 2026)**!
+
 🔭 This project is under active development. Star and watch the repository to follow updates.
 
 ---
