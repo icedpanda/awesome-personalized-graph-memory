@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue" alt="GitHub forks">
 </p>
 
-This repo is a curated list of papers, systems, and benchmarks on graph-based personalized memory for LLM agents, based on our survey, **“Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation.”** We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
+This repo is a curated list of papers, systems, and benchmarks on graph-based personalized memory for LLM agents, based on our survey, "[Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation](https://arxiv.org/abs/2609.08599)". We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
 
 We hope this repository can help researchers and practitioners navigate this emerging area. 
 
