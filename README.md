@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue" alt="GitHub forks">
 </p>
 
-This repo is a curated list of papers, systems, and benchmarks on graph-based personalized memory for LLM agents, based on our survey, "[Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation](https://arxiv.org/abs/2609.08599)". We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
+This repo is a curated list of papers, systems, and benchmarks on graph-based personalized memory for LLM agents, based on our survey, "_[Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation](https://arxiv.org/abs/2609.08599)_". We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
 
 We hope this repository can help researchers and practitioners navigate this emerging area. 
 
@@ -56,6 +56,7 @@ This is a fast growing area so contributions of missing papers are welcome.
   - [Structure and Evolution](#structure-and-evolution)
 - [Applications](#applications)
 - [Contributing](#-contributing)
+- [Citation](#-citation)
 
 ---
 
@@ -378,3 +379,14 @@ PRs are welcome. Please:
 2. List a paper under every category it illustrates (representation structure, evolution operation, retrieval mechanism, evaluation family, or application). Duplicate rows are intended; they make papers findable by category.
 
 ---
+
+## 📃 Citation
+
+```bibtex
+@article{nguyen2026graph,
+  title={Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation},
+  author={Nguyen, Dac Duy Anh and Qiu, Zhangchi and Chen, Shigeng and Liew, Alan Wee-Chung},
+  journal={arXiv preprint arXiv:2609.08599},
+  year={2026}
+}
+```
