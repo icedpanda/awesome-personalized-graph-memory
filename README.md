@@ -1,9 +1,11 @@
 # Awesome Graph-Based Personalized Memory for LLM Agents
 
-![Awesome](https://awesome.re/badge.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/icedpanda/awesome-personalized-graph-memory?color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue)
+<p align="center">
+  <img src="https://awesome.re/badge.svg" alt="Awesome">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  <img src="https://img.shields.io/github/stars/icedpanda/awesome-personalized-graph-memory?color=yellow" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/icedpanda/awesome-personalized-graph-memory?color=lightblue" alt="GitHub forks">
+</p>
 
 This repo is a curated list of papers, systems, and benchmarks on graph-based personalized memory for LLM agents, based on our survey, **“Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation.”** We organize the literature around four stages of the memory lifecycle: representation, evolution, retrieval, and evaluation.
 
@@ -17,9 +19,11 @@ This is a fast growing area so contributions of missing papers are welcome.
 
 ---
 
-<img src="figs/fig-workflow.jpg" alt="Graph-based personalized memory system" width="60%">
+<p align="center">
+  <img src="figs/fig-workflow.jpg" alt="Graph-based personalized memory system" width="60%">
+</p>
 
-***Overview of a graph-based personalized agent memory system.***
+<p align="center"><strong><em>Overview of a graph-based personalized agent memory system.</em></strong></p>
 
 ---
 
