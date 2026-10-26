@@ -182,12 +182,13 @@ How the graph is updated: whether to write, how to attach, how to handle conflic
 
 Whether incoming evidence becomes persistent memory, and at what type or granularity.
 
-| Work                                                                                                                           | Links                                       |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| **Knowledge Graph Tuning: Real-time Large Language Model Personalization based on Human Feedback** (arXiv'24)                  | [[paper]](https://arxiv.org/abs/2405.19686) |
-| **MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models** (arXiv'26)                   | [[paper]](https://arxiv.org/abs/2605.28009) |
-| **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) | [[paper]](https://arxiv.org/abs/2605.01386) |
-| **What Deserves Memory: Adaptive Memory Distillation for LLM Agents** (ACL'26)                                                 | [[paper]](https://arxiv.org/abs/2508.03341) |
+| Work                                                                                                                           | Links                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Adaptive Memory Admission Control for LLM Agents** (MemAgents@ICLR'26)                                                       | [[paper]](https://arxiv.org/abs/2603.04549) [[code]](https://github.com/GuilinDev/Adaptive_Memory_Admission_Control_LLM_Agents) |
+| **Knowledge Graph Tuning: Real-time Large Language Model Personalization based on Human Feedback** (arXiv'24)                  | [[paper]](https://arxiv.org/abs/2405.19686)                                                                                     |
+| **MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models** (arXiv'26)                   | [[paper]](https://arxiv.org/abs/2605.28009)                                                                                     |
+| **MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents** (ACL Findings'26) | [[paper]](https://arxiv.org/abs/2605.01386)                                                                                     |
+| **What Deserves Memory: Adaptive Memory Distillation for LLM Agents** (ACL'26)                                                 | [[paper]](https://arxiv.org/abs/2508.03341)                                                                                     |
 
 ### Integration
 
